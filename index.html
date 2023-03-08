@@ -384,17 +384,15 @@
 
         <!-- About -->
         <section id="feature" class="py-16 sm:py-20  lg:py-24 px-4 md:px-8">
-
-            <div class="mx-auto max-w-screen-xl">
+            <div class="mx-auto max-w-screen-lg">
                 <div class="grid gap-8 md:grid-cols-2 lg:gap-12 items-center  ">
-
                     <div>
-                        <div class="h-64 overflow-hidden rounded-lg bg-gray-100 h-auto">
+                        <div class="overflow-hidden rounded-lg bg-gray-100 h-auto lg:h-2/3">
                             <img src="./img/logo-ripples@4x.png" loading="lazy" alt="Photo by Martin Sanchez"
                                 class="h-full w-full object-cover object-center" />
                         </div>
                     </div>
-                    <div class="md:pt-8 lg:order-last ">
+                    <div class="md:pt-8 ">
                         <h1
                             class="mb-4 text-center text-2xl font-bold text-gray-800 md:text-3xl md:mb-6 md:text-left lg:text-5xl">
                             About Us
@@ -406,9 +404,97 @@
 
 
                     </div>
+                    <div class="flex flex-col rounded-lg shadow p-4 md:p-6 bg-light-blue">
+                        <h3 class="mb-2 text-lg font-semibold md:text-2xl">Our Mission</h3>
+                        <p class="mb-4 text-gray-500">Our mission is to simplify and enhance the lives of our clients by
+                            integrating cutting-edge technology into their homes and businesses </p>
+                    </div>
+                    <div class="flex flex-col rounded-lg shadow p-4 md:p-6 bg-light-blue">
+                        <h3 class="mb-2 text-lg font-semibold md:text-2xl">Our Commitment</h3>
+                        <p class="mb-4 text-gray-500">To use only the highest quality products and stay up-to-date with
+                            the latest advancements in the industry to ensure that our clients receive the best possible
+                            solutions.</p>
+
+                    </div>
+
                 </div>
             </div>
 
+        </section>
+
+        <!-- Gallery -->
+        <section class=" py-16 sm:py-20 lg:py-24">
+            <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
+                <div class="mb-10">
+                    <h2 class="mb-2 text-center text-2xl font-bold md:text-3xl text-gray-800  lg:text-5xl">
+                        Gallery</h2>
+                    <p class=" mx-auto max-w-xl text-center md:text-lg lg:text-2xl">A showcase of our latest projects
+                    </p>
+                </div>
+
+                <div class="mb-8 grid grid-cols-2 gap-4 sm:grid-cols-3 md:mb-12 md:grid-cols-4 md:gap-6 xl:gap-8">
+                    <!-- image - start -->
+                    <a href="#"
+                        class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
+                        <img src="./img/4x/Asset 3@4x-100.jpg" loading="lazy" alt="Photo by Minh Pham"
+                            class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+
+                        <div
+                            class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+                        </div>
+
+                        <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">VR</span>
+                    </a>
+                    <!-- image - end -->
+
+                    <!-- image - start -->
+                    <a href="#"
+                        class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
+                        <img src="./img/4x/Asset 4@4x-100.jpg" loading="lazy" alt="Photo by Magicle"
+                            class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+
+                        <div
+                            class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+                        </div>
+
+                        <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Tech</span>
+                    </a>
+                    <!-- image - end -->
+
+                    <!-- image - start -->
+                    <a href="#"
+                        class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
+                        <img src="./img/4x/Asset 5@4x-100.jpg" loading="lazy" alt="Photo by Martin Sanchez"
+                            class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+
+                        <div
+                            class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+                        </div>
+
+                        <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Dev</span>
+                    </a>
+                    <!-- image - end -->
+
+                    <!-- image - start -->
+                    <a href="#"
+                        class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
+                        <img src="./img/4x/Asset 6@4x-100.jpg" loading="lazy" alt="Photo by Lorenzo Herrera"
+                            class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+
+                        <div
+                            class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+                        </div>
+
+                        <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Retro</span>
+                    </a>
+                    <!-- image - end -->
+                </div>
+
+                <div class="flex justify-center gap-8 items-center">
+                    <a href="#"
+                        class="inline-block rounded-lg border bg-white px-8 py-3 text-center text-sm font-semibold text-gray-500 outline-none ring-indigo-300 transition duration-100 hover:bg-gray-100 focus-visible:ring active:bg-gray-200 md:px-8 md:py-3 md:text-base">More</a>
+                </div>
+            </div>
         </section>
     </main>
 
