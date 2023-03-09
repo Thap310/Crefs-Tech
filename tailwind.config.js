@@ -8,14 +8,16 @@ module.exports = {
       lg: '976px',
       xl: '1440px',
     },
-    colors: {
-      'primary': '#29ABE2',
-      'dark-blue': '#004A66',
-      'light-blue': '#F2FCFF',
-      'dark': '#002938',
-      'white': '#ffffff'
+    
+    extend: {
+      colors: {
+        'primary': '#29ABE2',
+        'dark-blue': '#004A66',
+        'light-blue': '#F2FCFF',
+        'dark': '#002938',
+        'white': '#ffffff'
+      },
     },
-    extend: {},
   },
   plugins: [],
 }
