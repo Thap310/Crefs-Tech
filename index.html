@@ -1,22 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crefstech</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./img/favicon@72x.png" />
 </head>
 
-<body class="mx-auto max-w-screen-2xl ">
+<body class="mx-auto max-w-screen-2xl text-dark relative">
 
-    <header class="px-4 md:px-8">
-        <nav class="flex items-center justify-between py-4 md:py-8">
+    <header class="fixed top-0 w-full z-40 bg-white opacity-90 border-b-2">
+        <nav class="flex items-center justify-between px-4 md:px-8 py-4 md:py-6 max-w-screen-xl mx-auto">
             <!-- logo - start -->
 
-            <a href="/" class="text-black-800 inline-flex items-center gap-2.5 text-lg font-medium" aria-label="logo">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 27.85" class="w-6 h-auto">
+            <a href="#" class="text-black-800 inline-flex items-center gap-2.5 text-lg font-medium" aria-label="logo">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 27.85" class="w-6 h-6">
                     <defs>
                         <style>
                             .cls-1 {
@@ -45,28 +46,28 @@
 
             <!-- nav - start -->
             <nav class="hidden gap-12 lg:flex">
-                <a href="#"
-                    class="text-lg font-semibold text-gray-600 transition duration-100 hover:text-indigo-500 active:text-indigo-700">Home</a>
-                <a href="#"
-                    class="text-lg font-semibold text-gray-600 transition duration-100 hover:text-indigo-500 active:text-indigo-700">
+                <a href="#" class="text-lg font-semibold text-gray-600 transition-all hover:text-primary ">Home</a>
+                <a href="#services" class="text-lg font-semibold text-gray-600 transition-all hover:text-primary ">
                     Services
                 </a>
-                <a href="#"
-                    class="text-lg font-semibold text-gray-600 transition duration-100 hover:text-indigo-500 active:text-indigo-700">About</a>
-                <a href="#"
-                    class="text-lg font-semibold text-gray-600 transition duration-100 hover:text-indigo-500 active:text-indigo-700">Contact</a>
+                <a href="#about"
+                    class="text-lg font-semibold text-gray-600 transition-all hover:text-primary ">About</a>
+                <a href="#gallery"
+                    class="text-lg font-semibold text-gray-600 transition-all hover:text-primary ">Gallery</a>
+                <a href="#contact"
+                    class="text-lg font-semibold text-gray-600 transition-all hover:text-primary ">Contact</a>
             </nav>
             <!-- nav - end -->
 
             <!-- buttons - start -->
             <div class="-ml-8 hidden flex-col gap-2.5 sm:flex-row sm:justify-center lg:flex lg:justify-start">
                 <a href="#"
-                    class="inline-block bg-primary rounded-lg px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-indigo-300 transition duration-100 hover:bg-indigo-600 focus-visible:ring active:bg-indigo-700 md:text-base">
+                    class=" inline-block  rounded-full px-8 py-3 text-center bg-primary text-white hover:bg-sky-600 font-semibold outline-none ring-primary transition duration-100  focus-visible:ring active:bg-sky-700 md:text-base">
                     Get Quote</a>
             </div>
 
             <button type="button"
-                class="inline-flex items-center gap-2 rounded-lg  px-2.5 py-2.5 text-sm font-semibold text-gray-500 ring-indigo-300 hover:bg-gray-300 focus-visible:ring active:text-gray-700 md:text-base lg:hidden">
+                class="mobile-menu-button inline-flex items-center gap-2 rounded-lg  px-2.5 py-2.5 text-sm font-semibold text-gray-500 ring-indigo-300 hover:bg-gray-300 focus-visible:ring active:text-gray-700 md:text-base lg:hidden">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
                     <path fill-rule="evenodd"
                         d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h6a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
@@ -76,120 +77,41 @@
 
             </button>
             <!-- buttons - end -->
-
-
         </nav>
-        <!-- menu - start -->
-        <div class="hidden w-full overflow-hidden rounded-lg border bg-gray-50 shadow-sm ">
-            <div class="mx-auto flex max-w-screen-lg items-center gap-8 p-8">
-                <div class="grid w-2/3 grid-cols-2 gap-8">
-                    <!-- link - start -->
-                    <a href="#" class="group flex gap-4">
-                        <div
-                            class="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-indigo-500 text-white shadow-lg transition duration-100 group-hover:bg-indigo-600 group-active:bg-indigo-700 md:h-12 md:w-12">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
-                                stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
-                            </svg>
-                        </div>
 
-                        <div>
-                            <div class="mb-1 font-semibold">Growth</div>
-                            <p class="text-sm text-gray-500">This is a section of some simple filler text, also
-                                known as placeholder text.</p>
-                        </div>
-                    </a>
-                    <!-- link - end -->
-
-                    <!-- link - start -->
-                    <a href="#" class="group flex gap-4">
-                        <div
-                            class="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-indigo-500 text-white shadow-lg transition duration-100 group-hover:bg-indigo-600 group-active:bg-indigo-700 md:h-12 md:w-12">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
-                                stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
-                            </svg>
-                        </div>
-
-                        <div>
-                            <div class="mb-1 font-semibold">Security</div>
-                            <p class="text-sm text-gray-500">This is a section of some simple filler text, also
-                                known as placeholder text.</p>
-                        </div>
-                    </a>
-                    <!-- link - end -->
-
-                    <!-- link - start -->
-                    <a href="#" class="group flex gap-4">
-                        <div
-                            class="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-indigo-500 text-white shadow-lg transition duration-100 group-hover:bg-indigo-600 group-active:bg-indigo-700 md:h-12 md:w-12">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
-                                stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z" />
-                            </svg>
-                        </div>
-
-                        <div>
-                            <div class="mb-1 font-semibold">Cloud</div>
-                            <p class="text-sm text-gray-500">This is a section of some simple filler text, also
-                                known as placeholder text.</p>
-                        </div>
-                    </a>
-                    <!-- link - end -->
-
-                    <!-- link - start -->
-                    <a href="#" class="group flex gap-4">
-                        <div
-                            class="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-indigo-500 text-white shadow-lg transition duration-100 group-hover:bg-indigo-600 group-active:bg-indigo-700 md:h-12 md:w-12">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20"
-                                fill="currentColor">
-                                <path
-                                    d="M2 11a1 1 0 011-1h2a1 1 0 011 1v5a1 1 0 01-1 1H3a1 1 0 01-1-1v-5zM8 7a1 1 0 011-1h2a1 1 0 011 1v9a1 1 0 01-1 1H9a1 1 0 01-1-1V7zM14 4a1 1 0 011-1h2a1 1 0 011 1v12a1 1 0 01-1 1h-2a1 1 0 01-1-1V4z" />
-                            </svg>
-                        </div>
-
-                        <div>
-                            <div class="mb-1 font-semibold">Analytics</div>
-                            <p class="text-sm text-gray-500">This is a section of some simple filler text, also
-                                known as placeholder text.</p>
-                        </div>
-                    </a>
-                    <!-- link - end -->
-                </div>
-
-                <!-- promo - start -->
-                <div class="w-1/3 overflow-hidden rounded-lg border">
-                    <div class="h-48 bg-gray-100">
-                        <img src="https://images.unsplash.com/photo-1619118884592-11b151f1ae11?auto=format&q=75&fit=crop&w=320"
-                            loading="lazy" alt="Photo by Fakurian Design"
-                            class="h-full w-full object-cover object-center" />
-                    </div>
-
-                    <div class="flex items-center justify-between gap-2 bg-white p-3">
-                        <p class="text-sm text-gray-500">This is some simple filler text.</p>
-
-                        <a href="#"
-                            class="inline-block shrink-0 rounded-lg border bg-white px-3 py-1 text-sm font-semibold text-indigo-500 outline-none ring-indigo-300 transition duration-100 hover:bg-gray-50 focus-visible:ring active:bg-gray-100">More</a>
-                    </div>
-                </div>
-                <!-- promo - end -->
-            </div>
+        <!-- Mobile menu -->
+        <div class="hidden mobile-menu transition-all">
+            <ul class="m-4 md:mx-8 space-y-2 text-center">
+                <li class="active"><a href="index.html"
+                        class="block  px-4 md:px-8 py-3 text-white bg-primary rounded-full  font-semibold">Home</a>
+                </li>
+                <li><a href="#services"
+                        class="block  px-4 md:px-8 py-3 hover:bg-primary hover:text-white  rounded-full transition duration-300">Services</a>
+                </li>
+                <li><a href="#about"
+                        class="block  px-4 md:px-8 py-3 hover:bg-primary hover:text-white  rounded-full transition duration-300">About</a>
+                </li>
+                <li><a href="#gallery"
+                        class="block  px-4 md:px-8 py-3 hover:bg-primary hover:text-white  rounded-full transition duration-300">Gallery</a>
+                </li>
+                <li><a href="#contact"
+                        class="block  px-4 md:px-8 py-3 hover:bg-primary hover:text-white  rounded-full transition duration-300">Contact
+                        Us</a></li>
+            </ul>
         </div>
         <!-- menu - end -->
     </header>
+
+    <!-- Main Content -->
     <main>
-        <section id="hero"
-            class="mx-4 md:mx-8 min-h-96 relative flex flex-1 shrink-0 items-center justify-center overflow-hidden rounded-lg py-16 shadow-lg md:py-20 xl:py-48">
+        <section id="hero" class="pt-10 min-h-screen relative flex flex-1 items-center justify-center overflow-hidden">
             <!-- image - start -->
-            <img src="/img/hero-img@4x-100.jpg" loading="lazy" alt="Photo by Fakurian Design"
+            <img src="/img/hero.jpg" loading="lazy" alt="Photo of solar panels"
                 class="absolute inset-0 h-full w-full object-cover object-center" />
             <!-- image - end -->
 
             <!-- overlay - start -->
-            <div class="absolute inset-0 bg-indigo-500 mix-blend-multiply"></div>
+            <div class="absolute inset-0 bg-primary mix-blend-multiply"></div>
             <!-- overlay - end -->
 
             <!-- text start -->
@@ -198,178 +120,263 @@
                 <h1 class="mb-4 text-center text-4xl font-bold text-white sm:text-5xl md:text-6xl lg:text-7xl">
                     Solar Energy Experts</h1>
                 <p class="mb-12 lg:mb-16 text-center  text-white sm:text-xl lg:text-2xl">We provide
-                    innovative and sustainable energy solutions to
-                    help you live a more energy-efficient lifestyle.</p>
+                    innovative renewable energy solutions for residential and commercial projects.
+                </p>
                 <div class="flex w-full flex-col gap-4 sm:flex-row sm:justify-center">
                     <a href="#"
-                        class="inline-block rounded-lg bg-primary px-16 py-4 text-center text-sm font-semibold text-white outline-none ring-indigo-300 transition-all hover:bg-indigo-600 focus-visible:ring active:bg-indigo-700 md:text-base">Start
+                        class="inline-block rounded-full bg-primary px-16 py-4 text-center font-semibold text-white outline-none ring-indigo-300 transition-all hover:bg-sky-600 focus-visible:ring active:bg-indigo-700 md:text-base">Start
                         now</a>
 
                     <a href="#"
-                        class="inline-block rounded-lg border-2 transition-all  px-16 py-4 text-center text-sm font-semibold text-white outline-none ring-indigo-300  hover:bg-white hover:text-dark focus-visible:ring active:text-gray-700 md:text-base">Contact
+                        class="inline-block rounded-full border-2 transition-all  px-16 py-4 text-center font-semibold text-gray text-white border-white opacity-75 outline-none ring-indigo-300  hover:opacity-100 ">Contact
                         Us</a>
                 </div>
             </div>
             <!-- text end -->
         </section>
-        <!--  -->
-        <section id="feature" class="bg-white py-16 sm:py-20 lg:py-28 px-4 md:px-8">
 
+        <!-- Feature -->
+        <section id="feature" class="py-16 sm:py-20 lg:py-28 px-4 md:px-8">
             <div class="mx-auto max-w-screen-xl">
                 <div class="grid gap-8 md:grid-cols-2 lg:gap-12 items-center  ">
                     <div class="md:pt-8 lg:order-last ">
-                        <h1
-                            class="mb-4 text-center text-2xl font-bold text-gray-800 md:text-3xl md:mb-6 md:text-left lg:text-5xl">
+                        <h1 class="mb-4  text-2xl font-bold  md:text-3xl md:mb-6 md:text-left lg:text-5xl">
                             We are committed to
                             providing clean
                             renewable energy
                         </h1>
-                        <p class="mb-6 text-gray-500  text-center md:text-left sm:text-lg md:mb-8 lg:text-2xl">
+                        <p class="md:text-left sm:text-lg md:mb-8 lg:text-2xl">
                             Our team of experts includes certified installers and technology specialists who have
                             extensive experience in designing and installing customized systems to meet the unique needs
                             of our clients.
                         </p>
-
-
                     </div>
-                    <div>
-                        <div class="h-64 overflow-hidden rounded-lg bg-gray-100 h-auto">
-                            <img src="./img/house-with-panels@4x.png" loading="lazy" alt="Photo by Martin Sanchez"
-                                class="h-full w-full object-cover object-center" />
+                    <div class="relative max-w-lg mx-auto my-10">
+                        <div class="overflow-hidden  h-auto rounded-full relative">
+                            <img src="./img/house.jpg" loading="lazy" alt="Photo by Martin Sanchez"
+                                class="h-full w-full object-contain object-center " />
+                            <!-- overlay - start -->
+                            <div class="absolute inset-0 bg-primary mix-blend-multiply"></div>
+                            <!-- overlay - end -->
                         </div>
+                        <div class="w-40 h-40 rounded-full z-10 bg-primary absolute -top-10 opacity-50 left-0"></div>
+                        <div class="w-60 h-60 rounded-full -z-10 bg-sky-100 absolute -bottom-10 -right-4"></div>
                     </div>
                 </div>
             </div>
-
         </section>
 
         <!-- Services -->
-        <section id="services" class="bg-light-blue py-16 md:py-20 lg:py-28 px-4 md:px-8">
+        <section id="services" class="bg-sky-50  py-16 md:py-20 lg:py-40 px-4 md:px-8">
             <div class="mx-auto max-w-screen-xl ">
                 <!-- text - start -->
-                <div class="mb-10 md:mb-16">
-                    <h2 class="mb-4 text-center text-2xl font-bold md:text-3xl text-gray-800 md:mb-6 lg:text-5xl">Our
+                <div class="mb-10 md:mb-20">
+                    <h2 class="mb-4 text-2xl font-bold md:text-3xl text-gray-800 lg:mb-6 lg:text-5xl">Our
                         Services
                     </h2>
 
-                    <p class="mx-auto max-w-xl text-center text-gray-500 md:text-lg lg:text-2xl">We use the latest
+                    <p class="max-w-lg  text-gray-500 text-lg lg:text-2xl">We use the latest
                         technological advancements to ensure our clients receive the best possible solutions.</p>
                 </div>
                 <!-- text - end -->
 
-                <div class="grid gap-4  sm:grid-cols-2 md:gap-8 xl:grid-cols-3">
+                <div class="grid gap-4 sm:grid-cols-2 md:gap-8 lg:grid-cols-3">
                     <!-- feature - start -->
-                    <div class="flex flex-col rounded-lg shadow p-4 md:p-6 bg-white">
+                    <div class="group services-card">
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 mb-6 group-hover:text-primary"
+                            viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M8 2a4 4 0 1 0 8 0" />
+                            <path d="M4 3h1" />
+                            <path d="M19 3h1" />
+                            <path d="M12 9v1" />
+                            <path d="M17.2 7.2l.707 .707" />
+                            <path d="M6.8 7.2l-.7 .7" />
+                            <path
+                                d="M4.28 21h15.44a1 1 0 0 0 .97 -1.243l-1.5 -6a1 1 0 0 0 -.97 -.757h-12.44a1 1 0 0 0 -.97 .757l-1.5 6a1 1 0 0 0 .97 1.243z" />
+                            <path d="M4 17h16" />
+                            <path d="M10 13l-1 8" />
+                            <path d="M14 13l1 8" />
+                        </svg>
+
                         <h3 class="mb-2 text-lg font-semibold md:text-xl">Solar Panels</h3>
-                        <p class="mb-4 text-gray-500">We conduct site assessments to determine the feasibility of
+                        <p class="text-gray-500">We conduct site assessments to determine the feasibility of
                             installing solar panels, designing and installing solar panel systems, providing ongoing
                             maintenance.</p>
-                        <a href="#"
-                            class="mt-auto font-bold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700">More</a>
+
                     </div>
                     <!-- feature - end -->
 
                     <!-- feature - start -->
-                    <div class="flex flex-col rounded-lg shadow p-4 md:p-6 bg-white">
+                    <div class="group services-card">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 mb-6 group-hover:text-primary"
+                            viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <path d="M3 6m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z">
+                            </path>
+                            <path d="M6 6v-2"></path>
+                            <path d="M19 4l0 2"></path>
+                            <path d="M6.5 13l3 0"></path>
+                            <path d="M14.5 13l3 0"></path>
+                            <path d="M16 11.5l0 3"></path>
+                        </svg>
                         <h3 class="mb-2 text-lg font-semibold md:text-xl">Power Backup System</h3>
-                        <p class="mb-4 text-gray-500"> installation and maintenance of a backup power system that uses
+                        <p class="text-gray-500"> installation and maintenance of a backup power system that uses
                             batteries to provide electricity during power outages or other disruptions to the electrical
                             grid. </p>
-                        <a href="#"
-                            class="mt-auto font-bold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700">More</a>
+
                     </div>
                     <!-- feature - end -->
 
                     <!-- feature - start -->
-                    <div class="flex flex-col rounded-lg shadow p-4 md:p-6 bg-white">
+                    <div class="group services-card">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 mb-6 group-hover:text-primary"
+                            viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M20.085 11.085l-8.085 -8.085l-9 9h2v7a2 2 0 0 0 2 2h4.5" />
+                            <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 1.807 1.143" />
+                            <path d="M21 21m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+                            <path d="M21 16m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+                            <path d="M16 19m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+                            <path d="M21 16l-5 3l5 2" />
+                        </svg>
                         <h3 class="mb-2 text-lg font-semibold md:text-xl">Home Automation</h3>
-                        <p class="mb-4 text-gray-500">We install and integrate various smart devices and
+                        <p class="text-gray-500">We install and integrate various smart devices and
                             technologies that allow homeowners to control and automate various functions within their
                             home, such as lighting, security systems, etc </p>
-                        <a href="#"
-                            class="mt-auto font-bold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700">More</a>
                     </div>
                     <!-- feature - end -->
 
                     <!-- feature - start -->
-                    <div class="flex flex-col rounded-lg shadow p-4 md:p-6 bg-white">
+                    <div class="group services-card">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 mb-6 group-hover:text-primary"
+                            viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M8 16a3 3 0 0 1 -3 3" />
+                            <path d="M16 16a3 3 0 0 0 3 3" />
+                            <path d="M12 16v4" />
+                            <path d="M3 5m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v4a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
+                            <path d="M7 13v-3a1 1 0 0 1 1 -1h8a1 1 0 0 1 1 1v3" />
+                        </svg>
                         <h3 class="mb-2 text-lg font-semibold md:text-xl">Air Conditioner</h3>
-                        <p class="mb-4 text-gray-500">We do maintenance, repair, and installation of air conditioning
+                        <p class="text-gray-500">We do maintenance, repair, and installation of air conditioning
                             systems.
                             This can include both central air conditioning systems and individual room air conditioners.
                         </p>
-                        <a href="#"
-                            class="mt-auto font-bold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700">More</a>
                     </div>
                     <!-- feature - end -->
 
                     <!-- feature - start -->
-                    <div class="flex flex-col rounded-lg shadow p-4 md:p-6 bg-white">
+                    <div class="group services-card">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 mb-6 group-hover:text-primary"
+                            viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M4 12v-6a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v6" />
+                            <path d="M10 18h-7" />
+                            <path d="M21 18h-7" />
+                            <path d="M6 15l-3 3l3 3" />
+                            <path d="M18 15l3 3l-3 3" />
+                        </svg>
                         <h3 class="mb-2 text-lg font-semibold md:text-xl">Automated Gate/Garage</h3>
-                        <p class="mb-4 text-gray-500">We install motorized gates and garage doors, as well as ongoing
+                        <p class="text-gray-500">We install motorized gates and garage doors, as well as ongoing
                             maintenance and repair to ensure that the system operates smoothly and safely. </p>
-                        <a href="#"
-                            class="mt-auto font-bold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700">More</a>
                     </div>
                     <!-- feature - end -->
 
                     <!-- feature - start -->
-                    <div class="flex flex-col rounded-lg shadow p-4 md:p-6 bg-white">
+                    <div class="group services-card">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 mb-6 group-hover:text-primary"
+                            viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M3 3m0 1a1 1 0 0 1 1 -1h16a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-16a1 1 0 0 1 -1 -1z" />
+                            <path d="M12 14m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
+                            <path d="M19 7v7a7 7 0 0 1 -14 0v-7" />
+                            <path d="M12 14l.01 0" />
+                        </svg>
                         <h3 class="mb-2 text-lg font-semibold md:text-xl">CCTV and Alarm System</h3>
-                        <p class="mb-4 text-gray-500">We do the installation, maintenance, and repair of closed-circuit
-                            television (CCTV) cameras and alarm systems in homes, businesses, and other settings. </p>
-                        <a href="#"
-                            class="mt-auto font-bold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700">More</a>
+                        <p class="text-gray-500">We do the installation, maintenance, and repair of
+                            closed-circuit
+                            television (CCTV) cameras and alarm systems in homes, businesses, and other settings.
+                        </p>
                     </div>
                     <!-- feature - end -->
-                    <div class="flex flex-col rounded-lg shadow p-4 md:p-6 bg-white">
+                    <div class="group services-card">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 mb-6 group-hover:text-primary"
+                            viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M2 12h9" />
+                            <path d="M15 12h7" />
+                            <path d="M11 5v14" />
+                            <path d="M15 9v6" />
+                            <path d="M3 5h4" />
+                            <path d="M5 3v4" />
+                        </svg>
                         <h3 class="mb-2 text-lg font-semibold md:text-xl">Electrical Wiring (COC)</h3>
-                        <p class="mb-4 text-gray-500"> installation of new wiring systems, the repair of damaged or
-                            malfunctioning wiring, and the maintenance of existing wiring systems to ensure that they
+                        <p class="text-gray-500"> installation of new wiring systems, the repair of damaged or
+                            malfunctioning wiring, and the maintenance of existing wiring systems to ensure that
+                            they
                             are safe and up to code.</p>
-                        <a href="#"
-                            class="mt-auto font-bold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700">More</a>
+
                     </div>
                     <!-- feature - end -->
-                    <div class="flex flex-col rounded-lg shadow p-4 md:p-6 bg-white">
+                    <div class="group services-card">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 mb-6 group-hover:text-primary"
+                            viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M13 3l0 7l6 0l-8 11l0 -7l-6 0l8 -11" />
+                        </svg>
                         <h3 class="mb-2 text-lg font-semibold md:text-xl">Electric Fencing</h3>
-                        <p class="mb-4 text-gray-500">We do the installation of the fencing system, the connection of
-                            the wiring and energizer, and the testing and maintenance of the system to ensure that it
+                        <p class="text-gray-500">We do the installation of the fencing system, the connection
+                            of
+                            the wiring and energizer, and the testing and maintenance of the system to ensure that
+                            it
                             operates effectively and safely.</p>
-                        <a href="#"
-                            class="mt-auto font-bold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700">More</a>
                     </div>
                     <!-- feature - end -->
-                    <div class="flex flex-col rounded-lg shadow p-4 md:p-6 bg-white">
+                    <div class="group services-card">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 mb-6 group-hover:text-primary"
+                            viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M7 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                            <path d="M17 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                            <path d="M5 17h-2v-11a1 1 0 0 1 1 -1h9v12m-4 0h6m4 0h2v-6h-8m0 -5h5l3 5" />
+                        </svg>
                         <h3 class="mb-2 text-lg font-semibold md:text-xl">Asset Tracking</h3>
-                        <p class="mb-4 text-gray-500">An asset tracking and monitoring service involves the use of
+                        <p class="text-gray-500">An asset tracking and monitoring service involves the use of
                             technology to track and monitor the location, status, and performance of assets such as
                             vehicles, equipment, and inventory.</p>
-                        <a href="#"
-                            class="mt-auto font-bold text-indigo-500 transition duration-100 hover:text-indigo-600 active:text-indigo-700">More</a>
                     </div>
                     <!-- feature - end -->
                 </div>
             </div>
-
         </section>
 
         <!-- Newsletter -->
-        <section class="bg-dark-blue mb-16 md:mb-20 lg:mb-28 py-16 md:py-20 lg:py-28 px-4 md:px-8">
+        <section class="bg-sky-900 mb-16 md:mb-20 lg:mb-28 py-16 md:py-20 lg:py-28 px-4 md:px-8">
             <div class="mx-auto max-w-screen-2xl">
-                <div class="flex flex-col items-center rounded-lg bg-gray-100  text-white">
+                <div class="flex flex-col items-center rounded-lg   text-white">
                     <div class="mb-10 sm:mb-12">
-                        <h2 class="text-center text-xl font-bold  sm:text-3xl lg:text-5xl">Get the latest
+                        <h2 class="text-center mb-2 text-xl font-bold  sm:text-3xl lg:text-5xl">Get the latest
                             updates</h2>
                         <p class="mx-auto max-w-xl text-center md:text-lg lg:text-2xl">Sign up for our newsletter</p>
                     </div>
 
                     <form class="mb-3 flex flex-col sm:flex-row w-full max-w-md gap-4 sm:mb-5 ">
                         <input placeholder="Email"
-                            class="bg-gray-white w-full flex-1 rounded border border-gray-300 px-3 py-2 text-gray-800 placeholder-gray-400 outline-none ring-indigo-300 transition duration-100 focus:ring" />
+                            class="bg-gray-white w-full flex-1 rounded-full border border-gray-300 px-6 py-3 text-gray-800 placeholder-gray-400 outline-none ring-primary transition duration-100 focus:ring" />
 
                         <button
-                            class="inline-block rounded bg-indigo-500 px-8 py-2 text-center text-sm font-semibold text-white outline-none border-2 border-white transition duration-100 hover:bg-indigo-600 focus-visible:ring active:bg-indigo-700 md:text-base">Send</button>
+                            class="inline-block rounded-full bg-primary px-16 py-3 text-center font-semibold text-white outline-non transition duration-100 hover:bg-sky-500 focus-visible:ring active:bg-indigo-700 md:text-base">Send</button>
                     </form>
 
                     <p class="text-center text-xs text-gray-400">By signing up to our newsletter you agree to our <a
@@ -383,31 +390,25 @@
         </section>
 
         <!-- About -->
-        <section id="feature" class="py-16 sm:py-20  lg:py-28 px-4 md:px-8">
-            <div class="mx-auto max-w-screen-lg">
-                <div class="mb-10 md:mb-14 lg:max-w-2xl md:max-w-xl mx-auto">
-                    <h1 class="mb-4 text-center text-2xl font-bold text-gray-800 md:text-3xl md:mb-6 lg:text-5xl">
+        <section id="about" class="py-16 sm:py-20  lg:py-28 px-4 md:px-8">
+            <div class="mx-auto max-w-screen-lg grid md:grid-cols-2 gap-10">
+                <div class="mb-10 md:mb-14 lg:max-w-2xl md:max-w-xl mx-auto self-center">
+                    <h1 class="mb-4 text-2xl font-bold text-gray-800 md:text-3xl md:mb-6 lg:text-5xl">
                         About Us
                     </h1>
-                    <p class="text-gray-500 text-center sm:text-lg lg:text-2xl">
-                        Crefstech is a leading provider of comprehensive smart home solutions, including solar panel
+                    <p class="text-gray-500 sm:text-lg lg:text-2xl">
+                        Crefstech is a leading provider of comprehensive technology solutions, including solar panel
                         installations, home automation, CCTV installations and more.
                     </p>
                 </div>
-                <div class="grid gap-8 md:grid-cols-2 lg:gap-12 items-center  ">
-                    <!-- <div>
-                        <div class="overflow-hidden rounded-lg bg-gray-100 h-auto lg:h-2/3">
-                            <img src="./img/logo-ripples@4x.png" loading="lazy" alt="Photo by Martin Sanchez"
-                                class="h-full w-full object-cover object-center" />
-                        </div>
-                    </div> -->
+                <div class="grid gap-8  items-center">
 
-                    <div class="flex flex-col rounded-lg shadow p-4 md:p-6 bg-light-blue">
+                    <div class="flex flex-col rounded-lg shadow p-4 md:p-6 bg-sky-50 border border-gray-100">
                         <h3 class="mb-2 text-lg font-semibold md:text-2xl">Our Mission</h3>
                         <p class="mb-4 text-gray-500">Our mission is to simplify and enhance the lives of our clients by
                             integrating cutting-edge technology into their homes and businesses </p>
                     </div>
-                    <div class="flex flex-col rounded-lg shadow p-4 md:p-6 bg-light-blue">
+                    <div class="flex flex-col rounded-lg shadow p-4 md:p-6 bg-sky-50 border border-gray-100">
                         <h3 class="mb-2 text-lg font-semibold md:text-2xl">Our Commitment</h3>
                         <p class="mb-4 text-gray-500">To use only the highest quality products and stay up-to-date with
                             the latest industry advancements to ensure the best possible service.</p>
@@ -420,8 +421,8 @@
         </section>
 
         <!-- Gallery -->
-        <section class=" py-16 sm:py-20 lg:py-28">
-            <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
+        <section id="gallery" class=" py-16 sm:py-20 lg:py-28">
+            <div class="mx-auto max-w-screen-xl px-4 md:px-8">
                 <div class="mb-10">
                     <h2 class="mb-2 text-center text-2xl font-bold md:text-3xl text-gray-800  lg:text-5xl">
                         Gallery</h2>
@@ -433,64 +434,64 @@
                     <!-- image - start -->
                     <a href="#"
                         class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
-                        <img src="./img/4x/Asset 3@4x-100.jpg" loading="lazy" alt="Photo by Minh Pham"
+                        <img src="./img/gallery/Asset 8.jpg" loading="lazy" alt="Photo by Minh Pham"
                             class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
 
                         <div
                             class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
                         </div>
 
-                        <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">VR</span>
+                        <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">CCTV</span>
                     </a>
                     <!-- image - end -->
 
                     <!-- image - start -->
                     <a href="#"
                         class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
-                        <img src="./img/4x/Asset 4@4x-100.jpg" loading="lazy" alt="Photo by Magicle"
+                        <img src="./img/gallery/Asset 5.jpg" loading="lazy" alt="Photo by Magicle"
                             class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
 
                         <div
                             class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
                         </div>
 
-                        <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Tech</span>
+                        <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Air
+                            Conditioner</span>
                     </a>
                     <!-- image - end -->
 
                     <!-- image - start -->
                     <a href="#"
                         class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
-                        <img src="./img/4x/Asset 5@4x-100.jpg" loading="lazy" alt="Photo by Martin Sanchez"
+                        <img src="./img/gallery/Asset 6.jpg" loading="lazy" alt="Photo by Martin Sanchez"
                             class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
 
                         <div
                             class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
                         </div>
 
-                        <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Dev</span>
+                        <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Solar
+                            Panels</span>
                     </a>
                     <!-- image - end -->
 
                     <!-- image - start -->
                     <a href="#"
                         class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
-                        <img src="./img/4x/Asset 6@4x-100.jpg" loading="lazy" alt="Photo by Lorenzo Herrera"
+                        <img src="./img/gallery/Asset 7.jpg" loading="lazy" alt="Photo by Lorenzo Herrera"
                             class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
 
                         <div
                             class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
                         </div>
 
-                        <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Retro</span>
+                        <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Motorized
+                            Gate</span>
                     </a>
                     <!-- image - end -->
                 </div>
 
-                <div class="flex justify-center gap-8 items-center">
-                    <a href="#"
-                        class="inline-block rounded-lg border bg-white px-8 py-3 text-center text-sm font-semibold text-gray-500 outline-none ring-indigo-300 transition duration-100 hover:bg-gray-100 focus-visible:ring active:bg-gray-200 md:px-8 md:py-3 md:text-base">More</a>
-                </div>
+
             </div>
         </section>
 
@@ -698,12 +699,10 @@
                     </div>
                     
                 </div> -->
-                <div class="space-y-4 max-w-screen-lg mx-auto transition-all">
-                    <details
-                        class="group transition-all rounded-lg bg-light-blue p-6 [&_summary::-webkit-details-marker]:hidden"
-                        open>
+                <div class="space-y-6 max-w-screen-lg mx-auto transition-all">
+                    <details class="faq-card [&_summary::-webkit-details-marker]:hidden transition duration-300 " open>
                         <summary class="flex items-center justify-between cursor-pointer">
-                            <h2 class="font-medium text-gray-900">
+                            <h2 class="font-medium md:text-lg">
                                 What are the benefits of solar energy?
                             </h2>
 
@@ -731,7 +730,7 @@
                         </p>
                     </details>
 
-                    <details class="group rounded-lg bg-light-blue p-6 [&_summary::-webkit-details-marker]:hidden">
+                    <details class="group faq-card [&_summary::-webkit-details-marker]:hidden">
                         <summary class="flex items-center justify-between cursor-pointer">
                             <h2 class="font-medium text-gray-900">
                                 How much does a solar panel system cost?
@@ -761,7 +760,7 @@
                         </p>
                     </details>
 
-                    <details class="group rounded-lg bg-light-blue p-6 [&_summary::-webkit-details-marker]:hidden">
+                    <details class="group faq-card [&_summary::-webkit-details-marker]:hidden">
                         <summary class="flex items-center justify-between cursor-pointer">
                             <h2 class="font-medium text-gray-900">
                                 How long does it take to install a solar panel system
@@ -791,7 +790,7 @@
                         </p>
                     </details>
 
-                    <details class="group rounded-lg bg-light-blue p-6 [&_summary::-webkit-details-marker]:hidden">
+                    <details class="group faq-card [&_summary::-webkit-details-marker]:hidden">
                         <summary class="flex items-center justify-between cursor-pointer">
                             <h2 class="font-medium text-gray-900">
                                 What happens to excess energy produced by solar panels?
@@ -820,7 +819,7 @@
                         </p>
                     </details>
 
-                    <details class="group rounded-lg bg-light-blue p-6 [&_summary::-webkit-details-marker]:hidden">
+                    <details class="group faq-card [&_summary::-webkit-details-marker]:hidden">
                         <summary class="flex items-center justify-between cursor-pointer">
                             <h2 class="font-medium text-gray-900">
                                 How long do solar panels last?
@@ -852,20 +851,17 @@
                 </div>
             </div>
 
-
-
-
         </section>
 
         <!-- Contact Section -->
 
-        <section id="contact" class=" px-4 sm:px-6 py-16 md:py-20 lg:py-28">
+        <section id="contact" class=" px-4 sm:px-6 py-16 md:py-20 lg:py-28 bg-sky-50  ">
             <div class="max-w-screen-xl mx-auto">
                 <div class="max-w-2xl mx-auto lg:max-w-5xl">
 
                     <!-- Heading -->
-                    <div class="max-w-screen-lg mx-auto text-center transition-all mb-28 fade-in">
-                        <h2 class="mb-2 text-center text-2xl font-bold md:text-3xl text-gray-800 lg:text-5xl">
+                    <div class="max-w-screen-lg mx-auto text-center transition-all mb-28">
+                        <h2 class="mb-2 text-center text-2xl font-bold md:text-3xl lg:text-5xl">
                             If you have any questions or need assistance, please contact us.
                         </h2>
                     </div>
@@ -874,146 +870,114 @@
                     <div class="grid items-center justify-center gap-20 mt-12 lg:grid-cols-2 lg:gap-16 ">
 
                         <div
-                            class="flex flex-col justify-end max-w-md p-4 sm:p-6 transition-all bg-light-blue border border-gra shadow  rounded-lg lg:p-10">
-
+                            class="flex flex-col justify-center p-6 sm:p-8 transition-all bg-white border border-gray-100 shadow  rounded-2xl lg:p-10">
                             <!-- Contact Form -->
                             <form class="space-y-6" target="_blank"
                                 action="https://formsubmit.co/b6a11178618c0cf90acc5910f564d8d0" method="post">
 
-                                <h3 class="mb-6 font-bold text-center sm:text-xl lg:text-3xl">Send
-                                    us a message</h3>
+
 
                                 <div>
-                                    <label for="name" class="block mb-2 text-sm font-medium ">
+                                    <label for="name" class="block mb-2 text-sm md:text-base font-medium">
                                         Full Name</label>
                                     <input type="text" name="name" id="name"
-                                        class="bg-slate-50 border border-gray-200 text-dark text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-3"
+                                        class="bg-gray-100 border px-6 border-gray-200 text-dark text-sm md:text-base rounded-full focus:ring-primary focus:border-primary block w-full p-3"
                                         placeholder="Joe Doe" required />
                                 </div>
                                 <div>
-                                    <label for="email" class="block mb-2 text-sm font-medium text-gray-900">
+                                    <label for="email" class="block mb-2 font-medium text-sm md:text-base">
                                         Email</label>
                                     <input type="email" name="email" id="email"
-                                        class="bg-gray-100 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-gray-100"
+                                        class="bg-gray-100 border px-6 border-gray-200 text-sm md:text-base rounded-full focus:ring-blue-500 focus:border-blue-500 block w-full p-3"
                                         placeholder="name@company.com" required />
                                 </div>
                                 <div>
-                                    <label for="phone"
-                                        class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-100">
+                                    <label for="phone" class="block mb-2 font-medium text-sm md:text-base ">
                                         Phone Number</label>
                                     <input type="text" name="phone" id="phone"
-                                        class="bg-gray-100 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-gray-100"
+                                        class="bg-gray-100 border px-6 text-sm md:text-base border-gray-200 rounded-full focus:ring-primary focus:border-primary block w-full p-3 "
                                         placeholder="*** *** ****" required />
                                 </div>
                                 <div>
-                                    <label for="message"
-                                        class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
+                                    <label for="message" class="block mb-2 font-medium text-sm md:text-base ">
                                         Message</label>
-                                    <textarea id="message" rows="4" name="message"
-                                        class="block p-2.5 w-full text-sm text-gray-900 bg-gray-100 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                                    <textarea id=" message" rows="4" name="message"
+                                        class="block p-3 w-full px-6 text-sm md:text-base  bg-gray-100 rounded-2xl border border-gray-200 focus:ring-primary focus:border-primary "
                                         placeholder="Write your thoughts here..."></textarea>
                                 </div>
                                 <button type="submit"
-                                    class="w-full px-5 py-4 text-sm font-medium text-center text-white bg-primary rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 ">
+                                    class="w-full px-5 py-4 text-sm md:text-base font-medium text-center text-white bg-primary rounded-full hover:bg-sky-600 focus:ring-4 focus:outline-none focus:ring-blue-300 ">
                                     Send Message
                                 </button>
-                                <p class="text-sm text-center text-gray-500 dark:text-gray-300">
+                                <p class="text-sm text-center  ">
                                     We'll get back to you in less than 24hrs.
                                 </p>
                             </form>
                         </div>
 
-                        <div class="transition-all divide-y-2 divide-slate-200 fade-in dark:divide-gray-800">
+                        <div class="space-y-10">
                             <!-- Icon Block -->
-                            <div class="flex py-6 gap-x-7">
-                                <div class="">
+                            <div
+                                class="flex flex-col sm:flex-row sm:items-center py-6 gap-x-7 bg-white border border-gray-100 rounded-2xl shadow p-6 md:p-8 lg:p-10">
+                                <div
+                                    class="bg-primary mb-6 sm:mb-0 w-16 h-16 rounded-full grid flex-none items-center justify-center ">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                        stroke-width="1.5" stroke="currentColor" class="w-8 h-8 stroke-blue-700">
+                                        stroke-width="2" stroke="currentColor" class="w-6 h-6 stroke-white">
                                         <path stroke-linecap="round" stroke-linejoin="round"
                                             d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3" />
                                     </svg>
-
                                 </div>
 
-                                <div>
-                                    <h3 class="font-semibold text-gray-800 dark:text-gray-200">Call Us</h3>
-                                    <p class="mt-1 text-sm text-gray-500">We're here to help with any questions or code.
+                                <div class="">
+                                    <h3 class="font-bold text-lg">Give us a call</h3>
+                                    <p class="mb-4 text-sm ">We're here to help with any questions.
                                     </p>
                                     <a href="tel:+27799056428"
-                                        class="inline-flex items-center mt-2 text-sm font-medium text-gray-600 gap-x-2 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200"
+                                        class="inline-flex items-center mt-1 mr-6 font-medium   gap-x-2 hover:text-gray-800"
                                         href="tel:0760305906">
                                         076 030 5906
-                                        <svg class="w-2.5 h-2.5 transition ease-in-out group-hover:translate-x-1"
-                                            width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path fill-rule="evenodd" clip-rule="evenodd"
-                                                d="M0.975821 6.92249C0.43689 6.92249 -3.50468e-07 7.34222 -3.27835e-07 7.85999C-3.05203e-07 8.37775 0.43689 8.79749 0.975821 8.79749L12.7694 8.79748L7.60447 13.7596C7.22339 14.1257 7.22339 14.7193 7.60447 15.0854C7.98555 15.4515 8.60341 15.4515 8.98449 15.0854L15.6427 8.68862C16.1191 8.23098 16.1191 7.48899 15.6427 7.03134L8.98449 0.634573C8.60341 0.268455 7.98555 0.268456 7.60447 0.634573C7.22339 1.00069 7.22339 1.59428 7.60447 1.9604L12.7694 6.92248L0.975821 6.92249Z"
-                                                fill="currentColor" />
-                                        </svg>
+
+                                    </a>
+                                    <a href="tel:+27799056428"
+                                        class="inline-flex items-center mt-1 font-medium   gap-x-2 hover:text-gray-800"
+                                        href="tel:0645221507">
+                                        0645221507
+
                                     </a>
                                 </div>
                             </div>
                             <!-- End Icon Block -->
 
                             <!-- Icon Block -->
-                            <div class="flex py-6 gap-x-7">
-                                <div class="">
+                            <div
+                                class="flex flex-col sm:flex-row sm:items-center py-6 gap-x-7 bg-white border border-gray-100 rounded-2xl shadow p-6 md:p-8 lg:p-10">
+                                <div
+                                    class="bg-primary mb-6 sm:mb-0 w-16 h-16 rounded-full grid flex-none items-center justify-center ">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                        stroke-width="1.5" stroke="currentColor" class="w-8 h-8 stroke-blue-700">
+                                        stroke-width="2" stroke="currentColor" class="w-6 h-6 stroke-white">
                                         <path stroke-linecap="round" stroke-linejoin="round"
                                             d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
                                     </svg>
                                 </div>
 
                                 <div>
-                                    <h3 class="font-semibold text-gray-800 dark:text-gray-200">Send an email</h3>
-                                    <p class="mt-1 text-sm text-gray-500">If you wish to write us an email instead
+                                    <h3 class="font-bold text-lg sm:text-xl lg:">Send an email</h3>
+                                    <p class="text-gray-500 mb-4">Write us an email instead
                                         please
                                         use
                                     </p>
-                                    <a class="inline-flex items-center mt-2 mr-5 text-sm font-medium text-gray-600 gap-x-2 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200"
+                                    <a class="inline-flex items-center mt-1 mr-5 font-medium gap-x-2 hover:text-gray-800 "
                                         href="mailto:info@zenithcorp.co.za">
-                                        info@zenithcorp.co.za
+                                        info@crefstech.co.za
                                     </a>
-                                    <a class="inline-flex items-center mt-2 text-sm font-medium text-gray-600 gap-x-2 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200"
+                                    <a class="inline-flex items-center mt-1 font-medium  gap-x-2 "
                                         href="mailto:info@zenithcorp.co.za">
-                                        support@zenithcorp.co.za
+                                        support@crefstech.co.za
                                     </a>
                                 </div>
                             </div>
                             <!-- End Icon Block -->
-
-                            <!-- Icon Block -->
-                            <div class="flex py-6 gap-x-7">
-
-                                <div class="">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                        stroke-width="1.5" stroke="currentColor"
-                                        class="w-8 h-8 stroke-blue-700 dark:text-gray-200">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
-                                    </svg>
-                                </div>
-
-                                <div>
-                                    <h3 class="font-semibold text-gray-800 dark:text-gray-200">Our Office</h3>
-                                    <p class="mt-1 text-sm text-gray-500">
-                                        Visit our office if you prefer to talk to us in-person
-                                    </p>
-                                    <a class="inline-flex items-center mt-2 text-sm font-medium text-gray-600 gap-x-2 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200"
-                                        href="https://goo.gl/maps/UGmsvTzZpqwEnD1F9" target="_blank">
-                                        <span
-                                            class="inline-flex items-center mt-2 text-sm font-medium text-gray-600 gap-x-2 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200">Office
-                                            no. 317, Caltex Building <br> 32 Bell Street, CBD <br> Mbombela, 1200</span>
-                                    </a>
-                                </div>
-                            </div>
-                            <!-- End Icon Block -->
-
                         </div>
-
 
                         <!-- End Form -->
 
@@ -1023,10 +987,84 @@
         </section>
     </main>
 
-    <footer>
+    <footer class="mx-auto max-w-screen-2xl px-4 md:px-8 pt-10 md:pt-20 pb-6  bg-sky-900 text-white">
+        <div class="flex flex-col items-center space-y-4">
+            <a href="/" class="text-black-800 inline-flex items-center gap-2.5 mb-4 text-lg font-medium"
+                aria-label="logo">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 27.85" class="w-6 h-6">
+                    <defs>
+                        <style>
+                            .cls-3 {
+                                fill: #fff;
+                            }
 
+                            .cls-4 {
+                                fill: #fff;
+                            }
+                        </style>
+                    </defs>
+                    <g id=" Layer_2" data-name="Layer 2">
+                        <g id="Layer_1-2" data-name="Layer 1">
+                            <path class="cls-3"
+                                d="M4.46,19A4.32,4.32,0,0,0,0,23.35a4.38,4.38,0,0,0,4.47,4.48,4.42,4.42,0,0,0,4.42-4.38A4.37,4.37,0,0,0,4.46,19Z" />
+                            <path class="cls-3" d="M21.87,13.87a3.1,3.1,0,0,0,0-6.2,3.1,3.1,0,1,0,0,6.2Z" />
+                            <path class="cls-4"
+                                d="M24.82,20A6.59,6.59,0,0,0,19.48,15a2.91,2.91,0,0,1-2-1.65,4,4,0,0,1-.05-2.78,9,9,0,0,0-.31-5.37A8.07,8.07,0,0,0,1.8,10.3a8.17,8.17,0,0,0,2.67,4.08A9.31,9.31,0,0,0,9,16.3a5.92,5.92,0,0,1,1.9.59,3,3,0,0,1,1.39,3.39,7.36,7.36,0,0,0,.21,2.95,6.39,6.39,0,0,0,10.9,2.49A6.16,6.16,0,0,0,24.82,20Z" />
+                        </g>
+                    </g>
+                </svg>
+
+                Crefstech
+            </a>
+            <!-- nav - start -->
+            <nav class="flex flex-wrap justify-center gap-x-4 gap-y-2 md:justify-start md:gap-6">
+                <a href="#" class="transition duration-100 hover:text-primary ">Services</a>
+                <a href="#" class="transition duration-100 hover:text-primary ">About</a>
+                <a href="#" class="transition duration-100 hover:text-primary ">FAQ</a>
+                <a href="#" class="transition duration-100 hover:text-primary ">Gallery</a>
+                <a href="#" class="transition duration-100 hover:text-primary ">Privacy Policy</a>
+
+            </nav>
+            <!-- nav - end -->
+
+            <!-- social - start -->
+            <div class="flex gap-4">
+                <a href="#" target="_blank" class=" transition duration-100 hover:text-primary active:text-primary">
+                    <svg class="h-5 w-5" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                    </svg>
+                </a>
+
+                <a href="#" target="_blank" class=" transition duration-100 hover:text-primary active:text-primary">
+                    <svg class="h-5 w-5" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
+                    </svg>
+                </a>
+
+                <a href="#" target="_blank" class=" transition duration-100 hover:text-primary active:text-primary">
+                    <svg class="h-5 w-5" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                    </svg>
+                </a>
+
+            </div>
+            <!-- social - end -->
+
+            <div class="text-center text-sm">© 2023 - Crefs Tech (Pty) Ltd. All rights reserved. Developed by Mohlala
+                Technologies</div>
+        </div>
     </footer>
 
+    <!-- Core JavaScript
+    ================================================== -->
+
+    <script src="./js/main.js"></script>
 </body>
 
 </html>
